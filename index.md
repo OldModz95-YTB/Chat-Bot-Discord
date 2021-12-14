@@ -1,37 +1,96 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Help page
 
-You can use the [editor on GitHub](https://github.com/OldModz95-YTB/Chat-Bot-Discord/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Installation
+<br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Create account: [brainshop.ai](https://brainshop.ai/user/register)
+<br>
+Aller dans le fichier `botconfig/config.json`/Go to file `botconfig/config.json`:
+```
+{
+  "token": "ADD YOUR TOKEN",
+  "prefix": "ADD YOUR PREFIX",
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+  "b_id": "ADD ID ACCOUNT brainshop.ai",
+  "b_key": "ADD KEY ACCOUNT brainshop.ai"
+}
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<br>
 
-### Jekyll Themes
+Aller dans le fichier `botconfig/embed.json`/Go to file `botconfig/embed.json`:
+`Custom embed`
+```
+{
+  "color": "#fffff9",
+  "wrongcolor": "RED",
+  "footertext": "Chat Bot | powered by protondev.eu",
+  "footericon": "https://i.imgur.com/1QEJlOd.png"
+}
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OldModz95-YTB/Chat-Bot-Discord/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<br>
 
-### Support or Contact
+Start bot `node .` or `node index.js`
+Commands `setup + mention channel chat bot`
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<br><br>
+
+## Information Modules
+
+```
+ascii-table: 0.0.9
+colors: 1.4.0
+cpu-stat: 2.0.1
+discord.js: 12.5.1
+enmap: 5.8.4
+```
+
+<br><br>
+
+## Information Commands
+
+
+### ADMIN
+
+```
+embed
+prefix
+say
+setup
+```
+
+### Information
+
+```
+botinfo
+developer
+djmode
+github
+help
+invite
+ping
+serverinfo
+sponsor
+stats
+uptime
+userinfo
+```
+
+<br>
+
+### Note:
+
+If you are having errors/problems with starting delete the `package.json` file and do, before you install the packages `npm init`
+
+
+<br>
+
+
+<br>
+<br>
+
+# Install NodeJS
+<br>
+
+[Download NodeJS](https://nodejs.org/en/)
