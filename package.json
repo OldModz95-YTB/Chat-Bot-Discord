@@ -1,0 +1,20 @@
+{
+  "name": "discord_chatbot",
+  "version": "2.3.1",
+  "description": "For Questions: https://discord.gg/MS6TMgRfqB",
+  "main": "index.js",
+  "_comment": "Node version base: 16.13.1",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "colors": "^1.4.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.5.1",
+    "enmap": "^5.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OldModz95",
+  "license": "ISC"
+}
